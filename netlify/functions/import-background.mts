@@ -3,6 +3,14 @@ import { galleryStore } from "./_shared/store.mts";
 import sourceAlbums from "./_shared/import-source.json";
 
 const CATEGORIES = [
+  "https://lol2024.x.yupoo.com/categories/5186220",
+  "https://lol2024.x.yupoo.com/categories/5183745",
+  "https://lol2024.x.yupoo.com/categories/5178450",
+  "https://lol2024.x.yupoo.com/categories/5178339",
+  "https://lol2024.x.yupoo.com/categories/5176911",
+  "https://lol2024.x.yupoo.com/categories/5175075",
+  "https://lol2024.x.yupoo.com/categories/5174889",
+  "https://lol2024.x.yupoo.com/categories/5174800",
   "https://lol2024.x.yupoo.com/categories/5332533",
   "https://lol2024.x.yupoo.com/categories/5332478",
   "https://lol2024.x.yupoo.com/categories/5332349",
@@ -11,7 +19,7 @@ const CATEGORIES = [
   "https://lol2024.x.yupoo.com/categories/5186237",
   "https://lol2024.x.yupoo.com/categories/5186231",
 ];
-const PAGE_COUNT = 7;
+const PAGE_COUNT = 15;
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36";
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

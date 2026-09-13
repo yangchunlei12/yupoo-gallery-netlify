@@ -5,8 +5,13 @@ import sourceAlbums from "./_shared/import-source.json";
 const CATEGORIES = [
   "https://lol2024.x.yupoo.com/categories/5332533",
   "https://lol2024.x.yupoo.com/categories/5332478",
+  "https://lol2024.x.yupoo.com/categories/5332349",
+  "https://lol2024.x.yupoo.com/categories/5224744",
+  "https://lol2024.x.yupoo.com/categories/5186338",
+  "https://lol2024.x.yupoo.com/categories/5186237",
+  "https://lol2024.x.yupoo.com/categories/5186231",
 ];
-const PAGE_COUNT = 2;
+const PAGE_COUNT = 7;
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36";
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

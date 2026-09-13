@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yupoo Replacement Gallery Import</title>
+  <style>
+    body{font:16px/1.6 system-ui,sans-serif;max-width:820px;margin:48px auto;padding:0 20px;color:#172033} .card{border:1px solid #dde3ee;border-radius:16px;padding:24px;box-shadow:0 8px 30px #17203312} h1{margin-top:0} code{background:#f3f5f8;padding:2px 6px;border-radius:5px} a{color:#135dd8} #status{white-space:pre-wrap}
+  </style>
+</head>
+<body><div class="card"><h1>Yupoo Replacement Gallery</h1><p>分类：<code>13 categories · 386 products</code></p><p id="status">正在读取导入状态…</p><p><a href="/api/manifest.csv">下载 CSV 清单</a> · <a href="/api/manifest.json">查看 JSON 清单</a></p></div>
+<script>async function tick(){try{const r=await fetch('/api/status');const s=await r.json();document.querySelector('#status').textContent=JSON.stringify(s,null,2)}catch(e){document.querySelector('#status').textContent=String(e)}}tick();setInterval(tick,5000)</script></body>
+</html>

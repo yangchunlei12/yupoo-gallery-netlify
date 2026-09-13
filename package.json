@@ -1,0 +1,12 @@
+{
+  "name": "yupoo-august-gallery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/index.html"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest",
+    "@netlify/functions": "latest"
+  }
+}
